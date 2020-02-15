@@ -1,0 +1,20 @@
+{
+    "name": "imdb_tvshowdata",
+    "version": "0.0.1",
+    "description": "Retrieves the entire Episode List from a given IMDB URL and saves the data to a text file. Run the script with URL as parameter to '-site'.",
+    "main": "app.js",
+    "scripts": {
+        "build": "tsc",
+        "start": "npm run build && node out/app.js"
+    },
+    "keywords": [],
+    "author": "Omar Omar",
+    "license": "UNLICENSE",
+    "dependencies": {
+        "@types/node": "^10.5.4"
+    },
+    "devDependencies": {
+        "@types/jsdom": "^11.0.6",
+        "jsdom": "^11.12.0"
+    }
+}
