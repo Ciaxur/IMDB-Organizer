@@ -1,5 +1,5 @@
 {
-    "name": "imdb_tvshowdata",
+    "name": "imdb-organizer",
     "version": "0.0.1",
     "description": "Retrieves the entire Episode List from a given IMDB URL and saves the data to a text file. Run the script with URL as parameter to '-site'.",
     "main": "app.js",
@@ -9,7 +9,7 @@
     },
     "keywords": [],
     "author": "Omar Omar",
-    "license": "UNLICENSE",
+    "license": "MIT",
     "dependencies": {
         "@types/node": "^10.5.4"
     },
