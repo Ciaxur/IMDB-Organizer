@@ -1,7 +1,7 @@
 {
     "name": "imdb-organizer",
     "version": "0.0.1",
-    "description": "Retrieves the entire Episode List from a given IMDB URL and saves the data to a text file. Run the script with URL as parameter to '-site'.",
+    "description": "Retrieves the entire Episode List from a given IMDB URL and saves the data to a text file",
     "main": "app.js",
     "scripts": {
         "build": "tsc",
